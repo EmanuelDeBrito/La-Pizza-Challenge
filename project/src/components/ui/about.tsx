@@ -3,7 +3,7 @@ import { Button } from "./button"
 
 export const About = () => {
     return(
-        <div className="flex-1 flex items-center gap-[136px] py-[64px]">
+        <div className="flex-1 flex flex-col gap-[64px] py-[64px] lg:flex-row lg:gap-[136px]">
             <img
                 className="flex-1 w-auto h-auto rounded" 
                 src="image.png" 
@@ -26,7 +26,7 @@ export const About = () => {
 
                 <Button 
                     label="Ler mais sobre"
-                    width={196}                
+                    width={200}                
                 />
             </div>
         </div>

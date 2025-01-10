@@ -26,9 +26,9 @@ export const PizzaItem = ({ data }: Props) => {
                 />
             </div>
 
-            <div className="absolute -top-[16px] right-[16px]">
+            <div className="absolute -top-[16px] right-[8px]">
                 <Icon 
-                    Icon={liked ? faHeart : faHeartFilled}
+                    Icon={liked ? faHeartFilled : faHeart}
                     value={liked}
                     onClick={() => setLiked(!liked)}                
                 />
