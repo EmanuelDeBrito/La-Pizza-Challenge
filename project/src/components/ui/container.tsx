@@ -10,8 +10,8 @@ export const Container = ({ padding, m, children }: Props) => {
     if(!m) return(
         <div 
             className={`
-                max-w-3xl mx-auto
-                ${padding ? ('py-[' + padding + 'px]') : ''}
+                max-w-5xl mx-auto
+                py-[${padding ?? 0}px]
             `}
         >
             {children}
@@ -21,8 +21,8 @@ export const Container = ({ padding, m, children }: Props) => {
     if(m === true) return(
         <main 
             className={`
-                max-w-3xl mx-auto 
-                ${padding ? ('py-[' + padding + 'px]') : ''} 
+                max-w-5xl mx-auto 
+                ${padding ? 'py-['+ padding +'px]' : 'py-0'}
             `} 
         >
             {children}

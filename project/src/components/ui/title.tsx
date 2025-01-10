@@ -4,7 +4,7 @@ type Props = {
 
 export const Title = ({ label }: Props) => {
     return(
-        <div className="text-[40px] text-black font-bold text-center">
+        <div className="mb-[70px] text-[40px] text-black font-bold text-center">
             {label}
         </div>
     )
